@@ -1,46 +1,239 @@
 body {
 	background-color: lightblue;
-	padding-top: 50px;
+	/*padding-top: 85px;*/
 	/*font-family: 'Josefin Slab', serif;*/
 	font-family: 'Raleway', sans-serif;
+    color: #2b2b2b;
 	/* default font-size is 14px */
-}
 
-.main {
-	background-color: white;
-	margin-top: 20px;
-	padding: 30px;
-	text-align: center;
-	display: block;
-	font-size: 16px;
-}
-
-.left {
-	float: left;
-	width: 50%;
-}
-
-.right {
-	float: right;
-	width: 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 img {
-	margin: auto;
+    margin: auto;
+}
+
+.container {
+    padding: 0;
+}
+
+.main {
+	margin-top: 30px;
+	padding: 20px 30px;
+	display: block;
+	font-size: 16px;
+    background: #f5f5f5;
+}
+
+/*color: #666666;*/
+/*color: #2b2b2b;*/
+/*color: #6a6a6a;*/
+/*color: #333333;*/
+
+.title {
+    font-family: "Josefin Slab";
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 5px 0 0 0;
+}
+
+.descript {
+    font-family: "Josefin Slab";
+    font-weight: 600;
+    font-size: 1.25em;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin: 5px 0;
+}
+
+.location {
+    font-family: "Josefin Slab";
+    font-weight: 600;
+    font-size: 1em;
+    color: #6a6a6a;
+    letter-spacing: 1.1px;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+.desc {
+    text-align: justify;
+}
+
+/* Education */
+#school {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#degree {
+    font-size: 1.2em;
+}
+
+#years {
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Experiences */
+#company {
+    font-size: 1.5em;
+    margin-top: 20px;
+    display: inline;
+}
+
+#job {
+    font-size: 1.5em;
+    display: inline;
+}
+
+#time {
+    font-weight: 400;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+ul {
+    text-align: left;
+}
+
+/* business-casual starts here... */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*text-transform: uppercase;*/
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+p {
+    /*font-size: 1.25em;*/
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    /*font-family: "Lobster";*/
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    /*min-width: 100%;*/
+    width: 100%;
+    /*margin-top: 10px;*/
+    /*margin-bottom: 150px;*/
+}
+
+.carousel {
+    background-color: lightgray;
+}
+
+.caption {
+    margin: 0;
+}
+
+.carousel-indicators {
+    position: static;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+    border-color: #000;
+}
+
+.carousel-caption {
+    font-family: "Josefin Slab";
+    font-weight: 600;
+    font-size: 18pt;
+    position: static;
+    left: 0;
+    padding: 15px;
+    margin: 0;
+    text-shadow: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none
+}
+
+/*.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}*/
+
+/*.brand-before {
+    margin: 15px 0;
+}*/
+
+/*.brand-name {
+    margin: 0;
+    font-size: 4em;
+}*/
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
 }
 
 .box {
-    margin-bottom: 20px;
-    padding: 30px 15px;
-    background: #fff;
-    background: rgba(255,255,255,0.9);
+    margin-top: 30px;
+    padding: 20px 30px;
+    /*text-align: center;*/
+    /*display: block;*/
+    /*font-size: 16px;*/
+    background: #f5f5f5;
+
+    /*margin-bottom: 20px;*/
+    /*padding: 30px 15px;*/
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.9);*/
 }
 
 .intro-text {
+    /*font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 400;
-    letter-spacing: 1px;
+    /*font-size: 1.25em;*/
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 .img-border {
@@ -54,26 +247,118 @@ img {
     margin: 0 auto 0;
 }
 
+footer {
+    /*background: #fff;*/
+    /*background: rgba(255,255,255,0.9);*/
+    margin-top: 30px;
+    background: #f5f5f5;
+}
+
+footer p {
+    margin: 0;
+    padding: 25px 0;
+}
+
 @media screen and (min-width:768px) {
-/*    .brand {
+    .brand {
         display: inherit;
         margin: 0;
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
         font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        /*font-family: "Lobster","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+        /*letter-spacing: 3px;*/
         font-size: 5em;
-        font-weight: 700;
+        font-weight: 600;
         line-height: normal;
         color: #fff;
     }
 
     .top-divider {
         margin-top: 0;
-    }*/
+    }
 
     .img-left {
         float: left;
         margin-right: 25px;
+    }
+
+    .img-full {
+        width: 80%;
+    }
+
+/*    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }*/
+
+    .navbar {
+        border-radius: 0;
+        min-height: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar-default {
+        border: none;
+        /*background: #fff;*/
+        /*background: rgba(255,255,255,0.9);*/
+        background: #f5f5f5;
+    }
+
+    .nav>li>a {
+        padding: 25px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: left;
+        margin: 0 auto;
+        table-layout: fixed;
+        /*font-size: 1.25em;*/
+    }
+
+    #nav-cont {
+        padding: 0;
+    }
+
+    #navbar {
+        padding-left: 0;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+
+    .descript {
+        font-size: 1.5em;
+    }
+
+    .location {
+        font-size: 1.25em;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
     }
 }
