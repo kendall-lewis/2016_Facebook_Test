@@ -1,3 +1,3 @@
-# kendall-lewis.github.io
-# 
-# Personal website
+# Personal website for Kendall Lewis
+
+kendall-lewis.github.io
